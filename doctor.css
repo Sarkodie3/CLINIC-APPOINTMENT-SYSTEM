@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f9f9;
+}
+
+/* NAVBAR */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-weight: bold;
+    color: #0a7c7b;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #0a7c7b;
+}
+
+.login-btn {
+    background: #0a7c7b;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background: linear-gradient(to right, #e0f7f7, white);
+}
+
+.hero img {
+    width: 45%;
+    border-radius: 10px;
+}
+
+.hero-text {
+    width: 55%;
+}
+
+.hero-text h1 {
+    color: #0a7c7b;
+}
+
+.hero-text button {
+    padding: 12px 20px;
+    margin-right: 10px;
+    border: none;
+    background: #0a7c7b;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero-text button:hover {
+    background: #06605f;
+}
+
+.outline {
+    background: transparent;
+    border: 2px solid #0a7c7b;
+    color: #0a7c7b;
+}
+
+/* SERVICES */
+.services {
+    padding: 40px;
+    text-align: center;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background:;
+    padding: 20px;
+    width: 220px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+/* APPOINTMENTS */
+.appointments {
+    background: #0a7c7b;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.appointments button {
+    padding: 12px 20px;
+    border: none;
+    background: white;
+    color: #0a7c7b;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* DOCTORS */
+.doctors {
+    padding: 40px;
+    text-align: center;
+}
+
+.doctor-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.doctor {
+    background: white;
+    padding: 15px;
+    width: 200px;
+    border-radius: 8px;
+}
+
+.doctor img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* CONTACT */
+.contact {
+    background: #eef6f6;
+    text-align: center;
+    padding: 30px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background: #0a7c7b;
+    color: white;
+    padding: 10px;
+}
